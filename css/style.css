@@ -11,6 +11,12 @@ body {
     width: 100%;
     margin: 0;
     background-color: #DD2D4A;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 canvas {
@@ -39,6 +45,13 @@ h1 smallText {
     color: #fff;
     font-size: 28px;
     margin-top: 20px;
+}
+
+h1 copyright {
+    display: block;
+    color: #fff;
+    opacity: 0.2;
+    font-size: 15px;
 }
 
 #typed {
