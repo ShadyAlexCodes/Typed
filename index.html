@@ -8,6 +8,7 @@
     <script src="javascript/typed.js"></script>
     <link rel="stylesheet" href="css/style.css">
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </head>
 <body>
 <h1>
@@ -22,6 +23,27 @@
         © 2019 ShadyAlexCodes
         <br>Some Rights Reserved
     </copyright>
+    <extraSmallText>
+                <span class="github_button">
+                    <a href="#" onclick="swal({
+            title: 'Warning',
+            text: 'You are about to be redirected to another page, but before continuing we wanted to make sure you were okay with this!',
+            icon: 'warning',
+        }).then(function(value) {
+                if(value) {
+                    window.location.href = 'https://shadyalexcodes.com/';
+                } else if(value == false) {
+
+                swal('Warning', 'You will not be redirected!', 'error');
+                }
+
+
+            });">
+
+                        <img src="https://avatars0.githubusercontent.com/u/45239432?s=460&v=4">
+                    </a>
+                </span>
+    </extraSmallText>
 </h1>
 </body>
 
