@@ -82,3 +82,8 @@ h1 extraSmallText {
     width: 65px;
     border-radius: 50%;
 }
+
+.swal-text {
+    font-size: 21px;
+    font-weight: 500;
+}
